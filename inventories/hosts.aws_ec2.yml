@@ -5,7 +5,7 @@ filters:
   "instance-state-name": running
 strict_permissions: False
 hostnames:
-  - tag:Name
+  - ip-address
 keyed_groups:
 - prefix: tag
   key: tags
